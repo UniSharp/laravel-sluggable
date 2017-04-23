@@ -1,0 +1,33 @@
+{
+    "name": "unisharp/laravel-sluggable",
+    "authors": [
+        {
+            "name": "UniSharp Ltd.",
+            "email": "unisharp-service@unisharp.com",
+            "homepage": "http://unisharp.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": ">=5.4",
+        "illuminate/support": ">=5.4",
+        "illuminate/config": ">=5.4",
+        "illuminate/events": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "UniSharp\\Sluggable\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.6",
+        "mockery/mockery": "^0.9.6"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        },
+        "classmap": [
+            "tests/migrations"
+        ]
+    }
+}
